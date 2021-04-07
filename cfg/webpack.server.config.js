@@ -20,7 +20,7 @@ module.exports = {
         test: /\.[tj]sx?$/,
         use: ['ts-loader'],
       }, {
-        test: /\.less$/,
+        test: /\.css$/,
         use: [
          {
             loader: 'css-loader',
